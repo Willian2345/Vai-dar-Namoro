@@ -1,0 +1,219 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+body{
+    font-family: "Calibri", Arial, Helvetica;
+    
+}
+/* ##### TOPO ##### */
+
+header{/* Estilo do TOPO-CABEÇALHO */
+    width: 100%;
+    height: 60px;
+    background-color: #F36CB9;
+   
+}
+
+.logo{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+/* ##### MENU ##### */
+
+nav{
+    height: 70px ;
+    font-size: 19px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    margin-left: 10px;
+    line-height: 3.7;
+    padding:0px 15px;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav ul .BOTAO:hover{/*config do mouse sobre o botão */
+background-color: rgb(255, 255, 255,0.2);
+height: 60px;
+}
+
+/* ##### MAIN - CONTEÚDO ##### */
+
+main{
+    width:1000px;
+    height: auto;
+    margin: 0 auto;
+   
+}
+
+article{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.fotoshome{
+    width: 50%;
+    float:left;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+}
+
+
+/* ##### RODAPÉ ##### */
+
+footer{
+    
+    background-color: #F36CB9;
+    color: #FFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    clear: both;
+}
+
+
+/* ##### SOBRE ##### */
+
+.fotossobre{
+
+    width: 20%;
+    height: 160px;
+    float: left;
+}
+
+.asobre{
+    padding-top: 20px;
+    width: 80%;
+    height: 160px;
+    float: left;
+
+
+}
+
+.peso{
+    width: 20%;
+    height: 160px;
+    float: right;
+    text-align: right;
+}
+
+.asobrepeso{
+    width: 80%;
+    height: 160px;
+    float: right;
+    padding-top: 20px;
+}
+
+
+/* ##### CONTATO ##### */
+
+#info{
+    width:380px;
+    float: left;
+}
+
+#mapa{ /* config banner */
+	width: 1000px; /* tamanho banner */
+	height: 300px; /* altura banner */
+	padding-top: 70px; /* margem-cima banner */
+}
+
+
+#formulario{
+    width: 600px;
+    float: right;
+    
+}
+
+#formulario label{
+    font-size: 16px;
+}
+
+#formulario div input{
+    background-color: #fae5cc;
+    border: 1px solid #f2c085;
+    width: 600px;
+    height: 25px;
+
+}
+
+
+#formulario div textarea{
+    background-color: #fae5cc;
+    border: 1px solid #f2c085;
+    width: 600px ;
+    height: 100px;
+    resize:none;
+}
+
+#formulario .BOTAO{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    color: white;
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#ENVIAR{
+    background-color: darkgreen;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+#LIMPAR{
+    background-color: tomato;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+
+/* ##### OBRIGADO ##### */
+
+#formulario h2{
+    color: orange;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 35px;
+}
+
+/* ##### GALERIA ##### */
+
+.galeria{
+    text-align: center;
+    margin: 10px;
+}
+
+.galeria img{
+    padding: 20px;
+}
+
+.tgaleria{
+    text-align: center;
+}
+
+
+
+
+
+
+
